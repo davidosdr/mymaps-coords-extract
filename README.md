@@ -46,7 +46,7 @@ El bucle es adaptativo: en vez de esperar 900ms fijos por popup, hace polling ca
  
 ## Limitaciones
 
-    Este script esta hardcodeado a la ciudad de Madrid, regex filtra números que caigan entre 35° y 45° de latitud y menos de 15° de longitud. Es para      no confundir coordenadas con otros números del popup (CP, número de calle, códigos de encuesta). Para otra ciudad hay que tocar esa comprobación.       Es una línea, sección `<extractCoords>`
+Este script esta hardcodeado a la ciudad de Madrid, regex filtra números que caigan entre 35° y 45° de latitud y menos de 15° de longitud. Es para      no confundir coordenadas con otros números del popup (CP, número de calle, códigos de encuesta). Para otra ciudad hay que tocar esa comprobación. Es una línea, sección `<extractCoords>`
 
 ## Formato del CSV
 
