@@ -22,7 +22,7 @@ El bucle es adaptativo: en vez de esperar 900ms fijos por popup, hace polling ca
 ## Instalación
 
 1. Instala [Tampermonkey](https://www.tampermonkey.net/) (Chrome/Edge) o [Violentmonkey](https://violentmonkey.github.io/) (Firefox).
-2. Instálalo desde Greasyfork: [enlace].
+2. Descarga el script y añadelo a tu gestor de userscritps preferido
 3. Entra en [Google My Maps](https://www.google.com/maps/d), abre el mapa que quieras procesar.
 4. **Asegúrate de que el panel lateral está abierto** con los bares listados. Si está colapsado, el script detecta 0 items.
 5. Aparece un botón azul arriba a la derecha: "▶ Extraer v6". Púlsalo.
