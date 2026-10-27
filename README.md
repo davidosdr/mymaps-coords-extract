@@ -43,6 +43,10 @@ El bucle es adaptativo: en vez de esperar 900ms fijos por popup, hace polling ca
   5. Superpón las dos capas y alterna visibilidad. Los pines de la capa nueva deberían caer justo encima de los de la original (los geocodificados por dirección).
   6. Cuando confirmes que están bien, exporta ese My Maps a KML. Esa vez el KML **sí** incluirá `<coordinates>`, porque las posiciones vienen de lat/lng, no de dirección.
   7. Importa ese KML en cualquier aplicacion.
+ 
+## Limitaciones
+
+    Este script esta hardcodeado a la ciudad de Madrid, regex filtra números que caigan entre 35° y 45° de latitud y menos de 15° de longitud. Es para      no confundir coordenadas con otros números del popup (CP, número de calle, códigos de encuesta). Para otra ciudad hay que tocar esa comprobación.       Es una línea, sección `<extractCoords>`
 
 ## Formato del CSV
 
